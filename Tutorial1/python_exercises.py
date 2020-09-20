@@ -50,10 +50,3 @@ def count_words(text):
             words[word] = 1
     
     return words
-
-print("is_odd(5):", is_odd(5))
-print("is_odd(8):", is_odd(8))
-print("is_palindrome('word'):", is_palindrome('word'))
-print("is_palindrome('racecar'):", is_palindrome('racecar'))
-print("only_odds:", only_odds([1,2,3,4,5,6]))
-print(count_words("How much wood would a woodchuck chuck if a woodchuck could chuck wood?"))
